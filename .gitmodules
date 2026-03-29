@@ -1,0 +1,6 @@
+[submodule "libkonio"]
+	path = libkonio
+	url = https://github.com/sirasaki-konoha/libkonio
+[submodule "libkcore"]
+	path = libkcore
+	url = https://github.com/sirasaki-konoha/libkcore
