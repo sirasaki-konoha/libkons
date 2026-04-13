@@ -10,6 +10,9 @@ set(LIBKCORE_DIR "" CACHE PATH "Path to libkcore build directory")
 # Build order
 add_subdirectory(libkcore)
 
+# Mark that kcore targets are available for libkonio
+set(KCORE_TARGETS_AVAILABLE TRUE CACHE INTERNAL "")
+
 if(LIBKCORE_DIR)
     message(STATUS "Using libkcore from: ${LIBKCORE_DIR}")
     set(LIBKCORE_INCLUDE_DIR "${LIBKCORE_DIR}/src")
