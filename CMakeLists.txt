@@ -26,3 +26,8 @@ else()
 endif()
 
 add_subdirectory(libkonio)
+
+# Install root header file
+install(FILES kons.h 
+    DESTINATION include
+)
