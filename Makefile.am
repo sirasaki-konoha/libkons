@@ -1,2 +1,0 @@
-SUBDIRS	= libkonio libkcore
-
